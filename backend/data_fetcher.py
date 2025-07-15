@@ -8,7 +8,7 @@ from database import StockDatabase
 class StockDataFetcher:
     def __init__(self):
         self.db = StockDatabase()
-        self.symbols = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'META', 'NFLX', 'NVDA']
+        self.symbols = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'META', 'NFLX', 'NVDA','MCRB','PAY','SOL-USD','USDC-USD','WBTC-USD']
         logging.basicConfig(level=logging.INFO)
         self.logger = logging.getLogger(__name__)
     
